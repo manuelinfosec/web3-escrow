@@ -22,7 +22,7 @@ contract Escrow is ChainlinkClient {
     event TxCompleted(address indexed sender, address indexed receiver, uint256 btcValue, uint256 ethValue);
     
     /**
-     * Network: Ropsten
+     * Network: Rinkeby
      */
     constructor() public {
         setPublicChainlinkToken();
